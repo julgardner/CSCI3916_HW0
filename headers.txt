@@ -1,0 +1,21 @@
+headers:
+"content-type":"application/json; charset=UTF-8",    Indicates a JSON object string with UTF-8 encoding is in the response body
+"vary":"X-Origin, Referer, Origin, Accept-Encoding", For proxies
+"date":"Mon, 01 Feb 2021 00:13:15 GMT",              Date of response
+"server":"ESF",                                      Server name
+"cache-control":"private",                           Specifies how caching must be done
+"x-xss-protection":"0",                              Cross-site scripting filter
+"x-frame-options":"SAMEORIGIN",                      Protection from clickjacking
+"x-content-type-options":"nosniff",                  Prevent IE from MIME-sniffing response away from declared content type (JSON) (according to wikipedia)
+"alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+                                                     Specifies alternate locations of this resource
+"accept-ranges":"none",                              No partial content types supported
+"connection":"close",                                Close connection after receiving response
+"transfer-encoding":"chunked"                        Divide data into chunks
+
+
+
+
+requestHeader:
+"Accept":"application/json, text/plain, */*",        Client only accepts JSON strings
+"User-Agent":"axios/0.18.0"                          Information about client
